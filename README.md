@@ -43,7 +43,7 @@ export default config;
 
 ## Setup Instructions
 
-Create a file `tsconfig.json` and add the following configuration:
+Create a file `tsConfig.json` and add the following configuration:
 
 ```json
 {
@@ -66,7 +66,7 @@ project/
 │   │   └── math.test.ts
 │   └── setup.ts
 ├── jest.config.js
-├── tsconfig.json
+├── tsConfig.json
 └── package.json
 ```
 ---
