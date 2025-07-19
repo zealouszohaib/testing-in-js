@@ -38,6 +38,20 @@ export default config;
 ```
 
 ---
+# TypeScript Configuration 🚀
+
+## Setup Instructions
+
+Create a file `tsconfig.json` and add the following configuration:
+
+```json
+{
+    "compilerOptions": {
+        "esModuleInterop": true
+    }
+}
+```
+---
 
 ## 🐞 Debugging Tests in VS Code
 
