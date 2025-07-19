@@ -15,6 +15,7 @@ npm install -D typescript jest ts-jest @types/jest ts-node
 
 ---
 
+
 ## ⚙️ Setting Up Jest for TypeScript
 
 Generate a Jest config file tailored for TypeScript:
@@ -36,8 +37,8 @@ const config: Config.InitialOptions = {
 
 export default config;
 ```
-
 ---
+
 # TypeScript Configuration 🚀
 
 ## Setup Instructions
@@ -51,8 +52,24 @@ Create a file `tsconfig.json` and add the following configuration:
     }
 }
 ```
----
 
+## Jest Folder Structure 🧪
+
+```
+project/
+├── src/
+│   ├── utils/
+│   │   └── math.ts
+│   └── index.ts
+├── tests/
+│   ├── utils/
+│   │   └── math.test.ts
+│   └── setup.ts
+├── jest.config.js
+├── tsconfig.json
+└── package.json
+```
+---
 ## 🐞 Debugging Tests in VS Code
 
 ### 1. Create `launch.json`
